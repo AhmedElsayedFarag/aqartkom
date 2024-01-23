@@ -1,0 +1,11 @@
+{
+    "name": "BotQuestion",
+    "alias": "bot_question",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BotQuestion\\Providers\\BotQuestionServiceProvider"
+    ],
+    "files": []
+}

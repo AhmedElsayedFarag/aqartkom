@@ -1,0 +1,11 @@
+{
+    "name": "Mortgage",
+    "alias": "mortgage",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Mortgage\\Providers\\MortgageServiceProvider"
+    ],
+    "files": []
+}

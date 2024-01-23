@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33.182" height="29.164" viewBox="0 0 33.182 29.164">
+  <g id="danger" transform="translate(0 -30.999)">
+    <path id="Path_2882" data-name="Path 2882" d="M32.667,54.349,19.974,32.982a3.886,3.886,0,0,0-6.766-.02L.5,54.369a3.893,3.893,0,0,0,3.383,5.794H29.3a3.886,3.886,0,0,0,3.363-5.813Z" transform="translate(0)" fill="#ffd400"/>
+    <path id="Path_2883" data-name="Path 2883" d="M272.056,58.238a3.845,3.845,0,0,1-3.344,1.925H256V31a3.836,3.836,0,0,1,3.383,1.983l12.693,21.367A3.862,3.862,0,0,1,272.056,58.238Z" transform="translate(-239.409 0)" fill="#fdbf00"/>
+    <g id="Group_44535" data-name="Group 44535" transform="translate(14.826 39.471)">
+      <rect id="Rectangle_1110" data-name="Rectangle 1110" width="3" height="4" transform="translate(0.356 11.528)" fill="#4a696f"/>
+      <rect id="Rectangle_1111" data-name="Rectangle 1111" width="3" height="10" transform="translate(0.356 -0.472)" fill="#4a696f"/>
+    </g>
+    <g id="Group_44536" data-name="Group 44536" transform="translate(16.944 39.471)">
+      <rect id="Rectangle_1112" data-name="Rectangle 1112" width="1" height="10" transform="translate(0.238 -0.472)" fill="#3e5959"/>
+      <rect id="Rectangle_1113" data-name="Rectangle 1113" width="1" height="4" transform="translate(0.238 11.528)" fill="#3e5959"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="156" height="66.5" viewBox="0 0 156 66.5">
+  <defs>
+    <filter id="Rectangle_103" x="0" y="0" width="156" height="60" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-opacity="0.31"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_44081" data-name="Group 44081" transform="translate(-109.5 -580.5)">
+    <path id="Path_126" data-name="Path 126" d="M5.5,0,11,9H0Z" transform="translate(193 637) rotate(180)" fill="#ff881b"/>
+    <g transform="matrix(1, 0, 0, 1, 109.5, 580.5)" filter="url(#Rectangle_103)">
+      <g id="Rectangle_103-2" data-name="Rectangle 103" transform="translate(10.5 9.5)" fill="#fff" stroke="#262f6a" stroke-width="1">
+        <rect width="135" height="39" rx="8" stroke="none"/>
+        <rect x="0.5" y="0.5" width="134" height="38" rx="7.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Ellipse_45" data-name="Ellipse 45" transform="translate(184 639)" fill="#262f6a" stroke="#fff" stroke-width="1">
+      <circle cx="4" cy="4" r="4" stroke="none"/>
+      <circle cx="4" cy="4" r="3.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_104" data-name="Rectangle 104" width="41" height="11" rx="1" transform="translate(167 618)" fill="#ff881b"/>
+    <text id="معتمد" transform="translate(186 625)" fill="#fff" font-size="8" font-family="Tajawal-Bold, Tajawal" font-weight="700"><tspan x="-11.54" y="0">معتمد</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+{
+    "name": "Neighborhood",
+    "alias": "neighborhood",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Neighborhood\\Providers\\NeighborhoodServiceProvider"
+    ],
+    "files": []
+}

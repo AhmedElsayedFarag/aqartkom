@@ -1,0 +1,44 @@
+.side-nav > ul > li > .side-menu:not(.side-menu--active) .side-menu__icon::before{
+    right: 0px;
+    left: none;
+    border-top-right-radius: 9999px;
+border-bottom-right-radius: 9999px;
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+}
+.side-nav{
+    padding-left: 1.25rem;
+    padding-right: 0px;
+}
+
+.side-nav .side-menu{
+    padding-left: 0px;
+    padding-right: 1.25rem;
+}
+
+
+.breadcrumb .breadcrumb-item:not(:first-child){
+    margin-right: 1.25rem;
+padding-right: 0.125rem;
+margin-left: 0px;
+padding-left: 0px;
+}
+.breadcrumb .breadcrumb-item:not(:first-child)::before{
+    margin-right: -1.125rem;
+    margin-left: 0px;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"/></svg>');
+}
+.form-switch .form-check-input:checked::before {
+        margin-right: 14px;
+        margin-left: 0px;
+             }
+.side-nav .side-menu .side-menu__title{
+    margin-right: 0.75rem;
+    margin-left: 0px;
+}
+
+
+.form-check-label {
+  margin-right: 0.5rem;
+  margin-left: 0rem;
+}

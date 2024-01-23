@@ -1,0 +1,704 @@
+@media (max-width: 767px) {
+  .navbar-toggler {
+    color: #fff;
+    border: 1px solid #fff;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+  }
+
+  .btn-close {
+    display: block;
+  }
+
+  .main-content {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+    padding-bottom: 0px;
+  }
+
+  .offcanvas {
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--primary-color);
+    padding-top: 50px;
+  }
+
+  .top-footer {
+    overflow: hidden;
+  }
+
+  .main-content h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .main-content p {
+    font-size: 16px;
+  }
+
+  .main-search .main-content .content {
+    width: 90%;
+  }
+
+  .link-style-small {
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .the-title {
+    display: block;
+    text-align: center;
+  }
+
+  .add-aqar p {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .add-aqar .first a {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .featured-aqars {
+    padding-bottom: 50px;
+  }
+
+  .downloadNow .second {
+    position: static;
+  }
+
+  .top-footer .parent {
+    flex-wrap: wrap;
+  }
+
+  .top-footer .parent .social {
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .top-footer .parent .pages ul {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .main-content input {
+    font-size: 14px;
+  }
+
+  .navbar-light .navbar-nav {
+    margin-top: 30px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    padding-bottom: 25px;
+    font-size: 20px;
+  }
+
+  .btn-close {
+    background-image: none;
+    opacity: 1;
+    position: absolute;
+    left: 10%;
+  }
+
+  .fa-xmark {
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .navbar-nav .nav-item span {
+    bottom: 60px;
+  }
+
+  .navbar .actions ul .login a {
+    background-color: var(--secondary-color);
+    color: #fff;
+  }
+
+  .navbar .actions .d-flex {
+    display: block !important;
+  }
+
+  .navbar .actions ul .add a {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .main-content p {
+    padding-bottom: 15px;
+  }
+
+  .main-content h2 {
+    padding-bottom: 5px;
+  }
+
+  .featured-aqars .feat {
+    width: 100%;
+  }
+
+  .featured-aqars .feat .photo img {
+    width: 100%;
+  }
+
+  .navbar .actions .dropdown a {
+    color: #fff;
+  }
+
+  .navbar .actions .dropdown {
+
+    margin-top: 15px;
+  }
+
+  .navbar .actions .download .download-app {
+    right: 30%;
+    top: 60px;
+  }
+
+  .aqar-company .owl-theme .owl-nav {
+    display: none;
+  }
+
+  .myProfile .addAdsData {
+    margin-top: 25px;
+  }
+
+  .myProfile .addAdsData .nav-pills .nav-item {
+    margin-left: 0px;
+    margin-bottom: 5px;
+  }
+
+  .myProfile .addAdsData .ads-filter button {
+    margin-top: 25px;
+  }
+
+  .myProfile .addAdsData .ads-filter .parent .photo {
+    margin-top: 15%;
+  }
+
+  .myProfile .personal-data .nav-item {
+    width: 50%;
+  }
+
+  .myProfile .personal-data .nav {
+    display: flex;
+  }
+
+  .allMzads .single-mzad .building .types {
+    margin-bottom: 15px;
+  }
+
+  .allMzads .myMzad {
+    text-align: center;
+  }
+
+  .allMzads .single-mzad .some-details .finish ul {
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .company-data {
+    padding-top: 20px;
+  }
+
+  .myProfile .company-data .photo {
+    margin: auto;
+    display: table;
+    margin-top: 0px;
+  }
+
+  .myProfile .editPersonalData h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .myProfile .editPersonalData input[type='submit'] {
+    display: table;
+    margin: auto;
+  }
+
+  .myProfile,
+  .company-subscripe {
+    padding-bottom: 20px;
+  }
+
+  .register .parent {
+    display: block !important;
+  }
+
+  .register .parent .fill-data .enroll {
+    margin: 50px 20px 40px 20px;
+  }
+
+  .form-wizard-steps h1 {
+    font-size: 12px;
+  }
+
+  .form-wizard .form-wizard-previous-btn,
+  .form-wizard .form-wizard-next-btn {
+    width: 100%;
+  }
+
+  .upFilter .search {
+    margin-bottom: 20px;
+  }
+
+  .upFilter .list {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .company-profile .parent {
+    padding: 20px 5px;
+    display: block !important;
+    text-align: center;
+  }
+
+  .company-profile .parent .content {
+    margin-right: 0px;
+  }
+
+  .company-profile .parent .content ul {
+    display: block !important;
+    margin: auto;
+    text-align: center;
+  }
+
+  .company-profile .parent .content ul li a {
+    display: table !important;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+  }
+
+  .featured-aqars .feat .photo img {
+    height: auto;
+  }
+
+  .company-profile .parent .content p {
+    width: 100%;
+  }
+
+  .filteration .search-filter .budget .low,
+  .filteration .search-filter .budget .high {
+    padding-bottom: 30px;
+  }
+
+  .filteration .search-filter .aqartype,
+  .allMzads .single-mzad .info {
+    text-align: center;
+  }
+
+  .filteration .aqar-photo img {
+    width: 100%;
+  }
+
+  .pagination .row {
+    width: auto !important;
+  }
+
+  .mzad-details .features {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .mzad-details .features li {
+    margin-bottom: 15px;
+    margin-right: 5px;
+  }
+
+  .mzad-details .description {
+    text-align: center;
+  }
+
+  .mzad-details .actions li button {
+    margin: auto;
+  }
+
+  .upFilter ul li:first-of-type a {
+    margin-right: 0px;
+  }
+
+  .myaqrs .heart,
+  .mymzads .heart {
+    width: auto;
+    height: auto;
+  }
+
+  .featured-aqars .feat .parent .photo {
+    margin-top: 0px;
+  }
+
+  .aqar-companies .company .parent {
+    display: block;
+  }
+
+  .aqar-companies .company .parent .photo {
+    width: 100%;
+  }
+
+  .aqar-companies .company .parent .info h2 {
+    text-align: center;
+  }
+
+  .aqar-companies .company .parent .photo img {
+    display: table;
+    margin: auto;
+    height: auto;
+  }
+
+  .aqar-companies .company .parent .info {
+    width: 100%;
+  }
+
+  .aqar-companies .company .parent .info ul li {
+    padding: 15px 25px;
+  }
+
+  .marketer-profile .parent .info {
+    margin-right: 0px;
+  }
+
+  .marketer-profile .parent .info .links-contact li {
+    margin-left: 0px;
+  }
+
+  .featured-aqars .feat .parent {
+    display: block !important;
+    text-align: center;
+  }
+
+  .featured-aqars .feat .parent .photo {
+    width: 100%;
+  }
+
+  .featured-aqars .feat .parent .photo img {
+    max-height: inherit;
+  }
+
+  .featured-aqars .feat .parent .verify {
+    width: 50%;
+  }
+
+  .featured-aqars .feat .parent .title {
+    padding-top: 15px;
+  }
+
+  .featured-aqars .feat .parent .sub-title {
+    border-bottom: 0px;
+  }
+
+  .featured-aqars .feat .parent .info .col-md-6 {
+    width: 25%;
+  }
+
+  .featured-aqars .feat .parent .info .price {
+    height: 46px;
+    line-height: 46px;
+    margin-top: 20px;
+  }
+
+  .add-aqar {
+    overflow: hidden;
+  }
+
+  .featured-aqars .feat .parent .info .amount {
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .featured-aqars .feat .parent .info {
+    margin-right: 0px;
+  }
+
+  .featured-aqars .feat .watch-details {
+    margin-top: 20px;
+  }
+
+  .featured-aqars .feat .parent .photo .ad-feat img {
+    width: auto;
+  }
+
+  .company-profile ul li {
+    width: auto;
+  }
+
+  .company-profile ul {
+    margin-top: 30px;
+  }
+
+  .company-profile ul li a {
+    font-size: 15px;
+  }
+
+  .myProfile .addAdsData .nav-pills .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 15px;
+  }
+
+  .myProfile .packageTypeInfo {
+    margin-top: 30px;
+  }
+
+  .suggestion {
+    padding-bottom: 50px;
+  }
+
+  .aqar-companies .company .parent .info {
+    margin-right: 0px;
+  }
+
+  .topSelectSearch .detectCountry {
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .topSelectSearch .showMap a {
+    display: table;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .topSelectSearch .detectCountry .search {
+    width: 10%;
+  }
+
+  .topSelectSearch .detectCountry .country {
+    width: 40%;
+  }
+
+  .topSelectSearch .detectCountry .destination {
+    width: 40%;
+  }
+
+  .topSelectSearch,
+  .filteration .search-filter {
+    overflow: hidden;
+  }
+
+}
+
+@media (max-width: 405px) {
+  .myProfile .personal-data .nav-link {
+    font-size: 14px;
+  }
+
+  .myProfile .personal-data .nav-link img {
+    padding-left: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-toggler {
+    color: #fff;
+    border: 1px solid #fff;
+  }
+
+  .navbar .actions .dropdown a {
+    color: #fff;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar .actions .dropdown {
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+  }
+
+  .btn-close {
+    display: block;
+  }
+
+  .offcanvas {
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--primary-color);
+    padding-top: 50px;
+  }
+
+  .fa-xmark {
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .navbar-nav .nav-item span {
+    bottom: 60px;
+  }
+
+  .navbar .actions ul .login a {
+    background-color: var(--secondary-color);
+    color: #fff;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    padding-bottom: 25px;
+    font-size: 20px;
+  }
+
+  .downloadNow .second {
+    position: static;
+  }
+
+  .top-footer .pages ul li {
+    padding-left: 10px;
+  }
+
+  .featured-aqars {
+    padding-bottom: 40px;
+  }
+
+  .btn-close {
+    background-image: none;
+    opacity: 1;
+    position: absolute;
+    left: 10%;
+  }
+
+  .navbar .actions ul {
+    justify-content: space-around;
+  }
+
+  .aqar-company .owl-theme .owl-nav {
+    display: none;
+  }
+
+  .myProfile .personal-data .nav-item {
+    width: 50%;
+  }
+
+  .myProfile .personal-data .nav {
+    display: flex;
+  }
+
+  .myProfile .addAdsData {
+    margin-top: 25px;
+  }
+
+  .register .parent {
+    display: block !important;
+  }
+
+  .register .parent .fill-data .enroll {
+    margin: 50px 20px 40px 20px;
+  }
+
+  .aqar-companies .col-md-6 {
+    width: 100%;
+  }
+
+  .featured-aqars .feat .parent {
+    display: block !important;
+    text-align: center;
+  }
+
+  .featured-aqars .feat .parent .photo {
+    width: 100%;
+  }
+
+  .featured-aqars .feat .parent .photo img {
+    max-height: inherit;
+  }
+
+  .featured-aqars .feat .parent .verify {
+    width: 50%;
+  }
+
+  .featured-aqars .feat .parent .title {
+    padding-top: 15px;
+  }
+
+  .featured-aqars .feat .parent .sub-title {
+    border-bottom: 0px;
+  }
+
+  .featured-aqars .feat .parent .info .col-md-6 {
+    width: 25%;
+  }
+
+  .featured-aqars .feat .parent .info .price {
+    height: 46px;
+    line-height: 46px;
+    margin-top: 20px;
+  }
+
+  .filteration .featured-aqars .col-md-6 {
+    width: 100%;
+  }
+
+  .topSelectSearch .detectCountry {
+    justify-content: center;
+    overflow: hidden;
+
+    width: 100%;
+  }
+
+  .topSelectSearch .showMap a {
+    display: table;
+    margin: auto;
+
+  }
+
+  .topSelectSearch .detectCountry .search {
+    width: 10%;
+  }
+
+  .topSelectSearch .detectCountry .country {
+    width: 40%;
+  }
+
+  .topSelectSearch .detectCountry .destination {
+    width: 40%;
+  }
+
+  .featured-aqars .feat .parent .photo img {
+    width: auto;
+    max-width: 100%;
+  }
+
+  .topSelectSearch,
+  .filteration .search-filter {
+    overflow: hidden;
+  }
+
+  .topSelectSearch .offset-md-1,
+  .topSelectSearch .offset-md-2 {
+    margin-right: 0px;
+  }
+
+  .topSelectSearch .col-md-4 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 347px) {
+  .downloadNow ul {
+    display: block !important;
+  }
+
+  .downloadNow ul li:last-of-type {
+    margin-right: 0px;
+  }
+}

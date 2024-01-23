@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd" bootstrap="vendor/autoload.php" colors="true">
+    <testsuites>
+        <testsuite name="Unit">
+            <directory suffix="Test.php">./tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Feature">
+            <directory suffix="Test.php">./tests/Feature</directory>
+        </testsuite>
+        <testsuite name="Auth">
+            <directory suffix="Test.php">./Modules/Auth/Tests/Feature</directory>
+        </testsuite>
+        <testsuite name="City Unit">
+            <directory suffix="Test.php">./Modules/City/Tests/Unit</directory>
+        </testsuite>
+        <testsuite name="City Feature">
+            <directory suffix="Test.php">./Modules/City/Tests/Feature</directory>
+        </testsuite>
+        <testsuite name="Neighborhood Unit">
+            <directory suffix="Test.php">./Modules/Neighborhood/Tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Neighborhood Feature">
+            <directory suffix="Test.php">./Modules/Neighborhood/Tests/Feature</directory>
+        </testsuite>
+        <testsuite name="Category Unit">
+            <directory suffix="Test.php">./Modules/Category/Tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Category Feature">
+            <directory suffix="Test.php">./Modules/Category/Tests/Feature</directory>
+        </testsuite>
+        <testsuite name="Media Unit">
+            <directory suffix="Test.php">./Modules/Media/Tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Media Feature">
+            <directory suffix="Test.php">./Modules/Media/Tests/Feature</directory>
+        </testsuite>
+        <testsuite name="Estate Feature">
+            <directory suffix="Test.php">./Modules/Estate/Tests/Feature</directory>
+        </testsuite>
+        <testsuite name="Estate Feature">
+            <directory suffix="Test.php">./Modules/Estate/Tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Subscription Feature">
+            <directory suffix="Test.php">./Modules/Subscription/Tests/Feature</directory>
+        </testsuite>
+        <testsuite name="Subscription Feature">
+            <directory suffix="Test.php">./Modules/Subscription/Tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Role Feature">
+            <directory suffix="Test.php">./Modules/Role/Tests/Feature</directory>
+        </testsuite>
+        <testsuite name="Role Feature">
+            <directory suffix="Test.php">./Modules/Role/Tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Favorite Feature">
+            <directory suffix="Test.php">./Modules/Favorite/Tests/Feature</directory>
+        </testsuite>
+        <testsuite name="Favorite Feature">
+            <directory suffix="Test.php">./Modules/Favorite/Tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Auction Feature">
+            <directory suffix="Test.php">./Modules/Auction/Tests/Feature</directory>
+        </testsuite>
+        <testsuite name="Auction Feature">
+            <directory suffix="Test.php">./Modules/Auction/Tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Ad Feature">
+            <directory suffix="Test.php">./Modules/Ad/Tests/Feature</directory>
+        </testsuite>
+        <testsuite name="Ad Feature">
+            <directory suffix="Test.php">./Modules/Ad/Tests/Unit</directory>
+        </testsuite>
+    </testsuites>
+    <coverage processUncoveredFiles="true">
+        <include>
+            <directory suffix=".php">./app</directory>
+        </include>
+    </coverage>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="BCRYPT_ROUNDS" value="4"/>
+        <env name="CACHE_DRIVER" value="array"/>
+        <env name="DB_CONNECTION" value="mysql"/>
+        <env name="DB_DATABASE" value="test_db"/>
+        <env name="MAIL_MAILER" value="array"/>
+        <env name="QUEUE_CONNECTION" value="sync"/>
+        <env name="SESSION_DRIVER" value="array"/>
+        <env name="TELESCOPE_ENABLED" value="false"/>
+    </php>
+</phpunit>
